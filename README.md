@@ -1,18 +1,22 @@
 # DjangoProjectCalendar
 MyCalendar
 
-1. napisz model
-2. stwórz migracje
-3. podepnij modele by były widoczne w adminie
-4. ogranicz widoczność zbędnych pól w adminie
-5. stwórz widoki frontendowe dla zarządzania modelami
-6. ogranicz widoczność zbędnych pól we frontendzie
-7. "autoryzacja (po stronie aplikacji www)"
-8. Celery
-9. RESTful api
-10. uwierzytelnianie dla api
++ 1. napisz model
++ 2. stwórz migracje
++ 3. podepnij modele by były widoczne w adminie
+... 4. ogranicz widoczność zbędnych pól w adminie
+- 5. stwórz widoki frontendowe dla zarządzania modelami
+- 6. ogranicz widoczność zbędnych pól we frontendzie
+- 7. "autoryzacja (po stronie aplikacji www)"
+- 8. Celery
+- 9. RESTful api
+- 10. uwierzytelnianie dla api
 
 Some commands:
+
+sudo pip install djangorestframework
+sudo pip install celery
+apt-get install rabbitmq-server
 
 create project:
 ./manage.py startproject NazwaProjektu ~/Dokumenty/PYTHON/project-repo
