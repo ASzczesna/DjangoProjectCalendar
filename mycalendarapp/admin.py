@@ -22,4 +22,6 @@ class EventAdmin(admin.ModelAdmin):
 
     def get_readonly_fields(self, request, obj=None):
         if obj.is_past:
-            return ['name', 'desc', 'place']
+            return ['time_begin', 'time_end', 'repeat_me', 'date_begin', 'date_end', 'repeat_shift']
+        #nie jest przeszłe - nie ma pól readOnly:
+        return []
